@@ -16,3 +16,13 @@ these 2065 examples contains also the 253 original images. They are found in fol
 
 # Architecture
 
+![](/architecture.png)
+
+I have used the negative of the input image as the boundary of the  tumor has a clear separation from the boundary. So, I thought that this would help in better feature extraction.
+
+# Results
+Test accuracy 86.45 %.
+
+I stored the test images in data ( unzip the testimages numpy array before using the test set and weights).
+
+I used the weeights for epoch 48.
