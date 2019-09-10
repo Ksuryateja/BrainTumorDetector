@@ -25,4 +25,4 @@ Test accuracy 86.45 %.
 
 I stored the test images in data ( unzip the testimages numpy array before using the test set and weights).
 
-I used the weeights for epoch 48.
+I used the weights for epoch 48.
